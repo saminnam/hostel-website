@@ -20,7 +20,7 @@ const SectionOne = ({ page, setPage }) => {
         <span className="color">Chennai's</span> Most Secure PG Homes <br /> for
         Peaceful Living
       </h3>
-      <img src={Assets.bottom_design} className="bottom_design_1"/>
+      <img src={Assets.bottom_design} className="bottom_design_1" alt="design"/>
       <div className="sec_2_locaitons_card mt-5 pt-2" data-aos="fade-up">
         <div
           id="carouselExampleIndicators"
@@ -50,7 +50,7 @@ const SectionOne = ({ page, setPage }) => {
               <div className="d-flex justify-content-between gap-4">
                 {property1.map((item) => (
                   <div className="sec_2_box" key={item.Id}>
-                    <img src={item.Image} alt="" />
+                    <img src={item.Image} alt="item" />
                     <div className="sec_2_box_body">
                       <div className="d-flex justify-content-between">
                         <div>

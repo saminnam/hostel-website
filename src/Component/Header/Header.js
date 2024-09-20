@@ -19,7 +19,7 @@ const Header = ({ setShowLogin }) => {
             <div className="col-4">
               {/* Use Link for navigation */}
               <Link to="/">
-                <img src={Assets.main_logo} className="logo" />
+                <img src={Assets.main_logo} className="logo" alt='logo'/>
               </Link>
             </div>
             <div className="col-6 mt-3">

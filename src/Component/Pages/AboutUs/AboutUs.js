@@ -10,7 +10,7 @@ const AboutUs = () => {
         {/* section one starts */}
         <div className="position-relative">
           <div className="pt-1">
-            <img src={Assets.bck_2} className="title_bck_img" />
+            <img src={Assets.bck_2} className="title_bck_img" alt="background_img"/>
             <Title title={"About"} us={"Us"} />
           </div>
         </div>
@@ -94,7 +94,7 @@ const AboutUs = () => {
                 </div>
               </div>
               <div className="col sec_about_us" data-aos="fade-down-left">
-                <img src={Assets.people} className="img-fluid" />
+                <img src={Assets.people} className="img-fluid" alt="people"/>
               </div>
             </div>
           </div>

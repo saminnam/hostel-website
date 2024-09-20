@@ -57,9 +57,10 @@ const SectionThree = () => {
                   width={380}
                   height={200}
                   className="bed_img"
+                  alt="bed"
                 />
               </div>
-              <img className="bed_img" src={Assets.bed_2} height={380} />
+              <img className="bed_img" src={Assets.bed_2} height={380} alt="bed"/>
             </div>
           </div>
         </div>

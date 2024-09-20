@@ -175,10 +175,7 @@ const BookingForm = ({ Id }) => {
       {errors.roomType && <p className="text-danger">{errors.roomType}</p>}
 
       {/* Form buttons */}
-      <div className="d-flex justify-content-between align-items-center btn_field">
-        <button className="form_btn_1" onClick={handleSubmit}>
-          Schedule a visit
-        </button>
+      <div className="btn_field text-center">
         <button className="form_btn" onClick={handleSubmit}>
           Confirm Details
         </button>

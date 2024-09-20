@@ -46,7 +46,7 @@ const SectionFive = () => {
           </div>
           <div className="col">
             <div className="d-flex justify-content-end align-items-end sec_5_img_right" data-aos="fade-up-left">
-              <img className="bed_img" src={Assets.bed_5} height={500} />
+              <img className="bed_img" src={Assets.bed_5} height={500} alt="bed"/>
             </div>
           </div>
         </div>

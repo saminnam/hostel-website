@@ -8,7 +8,7 @@ const Blogs = () => {
     <div className="blogs">
       <div className="position-relative">
           <div className="pt-1">
-            <img src={Assets.bck_2} className="title_bck_img" />
+            <img src={Assets.bck_2} className="title_bck_img" alt="background_img"/>
             <Title title={"Our"} us={"Blogs"} />
           </div>
         </div>

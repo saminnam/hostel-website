@@ -197,7 +197,7 @@ const ContactUs = () => {
             ></iframe>
           </div>
         </div>
-        <img src={Assets.letter_icon} width={70} className="letter_icon" data-aos="fade-right"/>
+        <img src={Assets.letter_icon} width={70} className="letter_icon" data-aos="fade-right" alt="letter"/>
         <div className="contactus_underline"></div>
       </div>
     </div>
