@@ -108,6 +108,53 @@ const HostelFacilities = () => {
         </div>
       </div>
       {/* section three ends */}
+      {/* section four starts */}
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col">
+            <div className="card card_blog_1" data-aos="fade-right">
+              <img src={Assets.fac_7} alt="Healthy Foods" />
+              <div className="card-body card_blog_body_1">
+                <h4 className="card-title">Large Screen T.V</h4>
+                <h6 className="card-subtitle">Watch your movie</h6>
+                <p className="card-text">
+                  A TV (television) is an electronic device used for viewing
+                  multimedia content movies.
+                  Modern TVs offer high-definition visuals for streaming.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card card_blog_1" data-aos="fade-down">
+              <img src={Assets.fac_8} alt="Unlimited Wifi" />
+              <div className="card-body card_blog_body_1">
+                <h4 className="card-title">Cook and Eat</h4>
+                <h6 className="card-subtitle">Feel Free to Use</h6>
+                <p className="card-text">
+                  Unlike traditional stoves, it offers precise temperature
+                  control and is safer, as the surface remains cool to the
+                  touch.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card card_blog_1" data-aos="fade-left">
+              <img src={Assets.fac_9} alt="Water Heater" />
+              <div className="card-body card_blog_body_1">
+                <h4 className="card-title">Study Table</h4>
+                <h6 className="card-subtitle">Comfortable Heater</h6>
+                <p className="card-text">
+                  Designed for comfort, it often features ample storage and an
+                  ergonomic design to support long hours of study.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* section four ends */}
     </div>
   );
 };

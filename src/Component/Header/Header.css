@@ -1,10 +1,6 @@
 .header {
-    /* background-color: #EAEDF0; */
-    /* background-color: #fff; */
     background-image: url("../../Assets/bk_1.jpg");
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* border-bottom: 1px solid #000; */
     transition: background-color 0.3s ease;
     width: 100%;
     padding: 10px;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./BookingForm.css";
 
-const BookingForm = () => {
+const BookingForm = ({ Id }) => {
   // State to hold the form input values and errors
   const [formData, setFormData] = useState({
     name: "",
@@ -9,18 +9,44 @@ const BookingForm = () => {
     phone: "",
     roomType: "",
   });
-  
+
   const [errors, setErrors] = useState({});
-  
+
   // Room options array
-  const roomOptions = [
-    { type: "2 Sharing", ac: "Non-Ac", price: "₹ 8000/-" },
-    { type: "3 Sharing", ac: "Non-Ac", price: "₹ 7500/-" },
-    { type: "4 & 5 Sharing", ac: "Non-Ac", price: "₹ 7000/-" },
-    { type: "6 & 8 Sharing", ac: "Non-Ac", price: "₹ 6500/-" },
-    { type: "4 Sharing", ac: "Ac", price: "₹ 8000/-" },
-    { type: "8 Sharing", ac: "Ac", price: "₹ 7000/-" },
-  ];
+  const roomOptions = {
+    1: [
+      { type: "2 Sharing", ac: "Non-Ac", price: "₹ 8000/-" },
+      { type: "3 Sharing", ac: "Non-Ac", price: "₹ 7500/-" },
+      { type: "4 & 5 Sharing", ac: "Non-Ac", price: "₹ 7000/-" },
+      { type: "6 & 8 Sharing", ac: "Non-Ac", price: "₹ 6500/-" },
+      { type: "4 Sharing", ac: "Ac", price: "₹ 8000/-" },
+      { type: "8 Sharing", ac: "Ac", price: "₹ 7000/-" },
+    ],
+    2: [
+      { type: "2 Sharing", ac: "Ac", price: "₹ 10,000/-" },
+      { type: "2 Sharing", ac: "Non-Ac", price: "₹ 9000/-" },
+      { type: "2 Sharing", ac: "Non-Ac", price: "₹ 8500/-" },
+      { type: "4 Sharing", ac: "Ac", price: "₹ 8000/-" },
+      { type: "4 Sharing", ac: "Non-Ac", price: "₹ 7500/-" },
+      { type: "4 Sharing", ac: "Non-Ac", price: "₹ 7000/-" },
+    ],
+    3: [
+      { type: "2 Sharing", ac: "Ac", price: "₹ 8000/-" },
+    ],
+    4: [
+      { type: "2 Sharing", ac: "Ac", price: "₹ 10,000/-" },
+    ],
+    5: [
+      { type: "2 Sharing", ac: "Ac", price: "₹ 12,000/-" },
+      { type: "3 Sharing", ac: "Ac", price: "₹ 10,000/-" },
+    ],
+    6: [
+      { type: "2 Sharing", ac: "Ac", price: "₹ 12,000/-" },
+    ],
+  };
+
+  //select the room options based on roomId
+  const selectRoomOptions = roomOptions[Id] || [];
 
   // Function to handle room selection
   const handleRoomSelect = (room) => {
@@ -128,7 +154,7 @@ const BookingForm = () => {
           Room Type
         </button>
         <ul className="dropdown-menu dropdown-menu-end w-100">
-          {roomOptions.map((room, index) => (
+          {selectRoomOptions.map((room, index) => (
             <li
               key={index}
               className="d-flex justify-content-around align-items-center"

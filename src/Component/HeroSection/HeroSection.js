@@ -96,7 +96,7 @@ const HeroSection = () => {
   return (
     <>
       <header ref={sectionRef}>
-        <div className="hero-container">
+        <div className="hero-container"  id='top'>
           <div className="hero-grid">
             <div className="hero-content" data-aos="fade-right">
               <h1 className="fst-italic hero-title">

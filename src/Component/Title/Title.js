@@ -3,7 +3,7 @@ import './Title.css';
 
 const Title = ({title,us}) => {
   return (
-    <div className="title">
+    <div className="title"  id='top'>
       <div className="sec_1_page_title">
         <div className="info_about_us" data-aos="zoom-out">
           <h1 className="text-center page_title">

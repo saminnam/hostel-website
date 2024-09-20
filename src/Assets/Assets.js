@@ -18,6 +18,9 @@ import fac_3 from './fac_3.jpg';
 import fac_4 from './fac_4.jpg';
 import fac_5 from './fac_5.jpg';
 import fac_6 from './fac_6.jpg';
+import fac_7 from './fac_7.jpg';
+import fac_8 from './fac_8.jpg';
+import fac_9 from './fac_9.jpg';
 import hostel_1 from './hostel_1.jpeg';
 import hostel_2 from './hostel_2.jpeg';
 import hostel_3 from './hostel_3.jpeg';
@@ -103,6 +106,9 @@ export const Assets = {
     fac_4,
     fac_5,
     fac_6,
+    fac_7,
+    fac_8,
+    fac_9,
     home_1_1_img,
     home_1_2_img,
     home_1_3_img,

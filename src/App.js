@@ -15,6 +15,7 @@ import ContactUs from "./Component/Pages/ContactUs/ContactUs";
 import Blogs from "./Component/Pages/Blogs/Blogs";
 import HostelFacilities from "./Component/HostelFacilities/HostelFacilities";
 import RoomDetails from "./Component/RoomDetails/RoomDetails";
+import ScrollToTop from "./Component/ScrollToTop";
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const App = () => {
       {showLogin ? <LoginPopUp setShowLogin={setShowLogin} /> : null}
       <BrowserRouter>
         <Header setShowLogin={setShowLogin} />
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home page={page} setPage={setPage}/>} />
           <Route path="/about_us" element={<AboutUs setShowLogin={setShowLogin}/>}/>

@@ -20,7 +20,7 @@ const RoomDetails = ({ page }) => {
                   <p className="address">{item.RoomAddress}</p>
                 </div>
                 <div className="icon_map">
-                  <a href="https://www.google.co.in/maps/dir//Brindhavanam+Hi-Tech+Gents+Hostel+-+Vadapalani+%7C+Men's+PG+in+Vadapalani+%7C+Mens+Hostel+in+Vadapalani+%7C+Mens+Hostel+in+Chennai,+9%2F1A,+Saidapet+Rd,+near+V.K+Enterprises,+Sarvamangala+Colony,+Aruna+Colony,+Vadapalani,+Chennai,+Tamil+Nadu+600026/@13.0278852,80.1440046,13724m/data=!3m2!1e3!4b1!4m12!1m2!2m1!1sBrindhavanam+Hi-Tech+Gents+Hostel+-+Ramapuram+%7C+Men's+PG+in+Ramapuram+%7C+Mens+Hostel+in+vadapalani+%7C+Mens+Hostel+in+Chennai!4m8!1m0!1m5!1m1!1s0x3a5267c0abbb0a0f:0xa74f1f9c6d01ca80!2m2!1d80.2127659!2d13.0461322!3e9?entry=ttu&g_ep=EgoyMDI0MDkxNS4wIKXMDSoASAFQAw%3D%3D">
+                  <a href="">
                     <CiLocationOn className="fs-2 color" />
                   </a>
                 </div>
@@ -90,7 +90,6 @@ const RoomDetails = ({ page }) => {
                   <p className="fs-6 mb-1">{item.Title1}</p>
                   <div className="d-flex justify-content-between">
                     <h6>{item.Rent1}</h6>
-                    <h6 className="me-2">{item.Fac2}</h6>
                   </div>
                 </div>
                 <div className="sharing_info_box">
@@ -98,7 +97,6 @@ const RoomDetails = ({ page }) => {
                   <p className="fs-6 mb-1">{item.Title1}</p>
                   <div className="d-flex justify-content-between">
                     <h6>{item.Rent2}</h6>
-                    <h6 className="me-2">{item.Fac2}</h6>
                   </div>
                 </div>
                 <div className="sharing_info_box">
@@ -106,17 +104,15 @@ const RoomDetails = ({ page }) => {
                   <p className="fs-6 mb-1">{item.Title1}</p>
                   <div className="d-flex justify-content-between">
                     <h6>{item.Rent3}</h6>
-                    <h6 className="me-2">{item.Fac2}</h6>
                   </div>
                 </div>
-              </div> */}
-              {/* <div className="d-flex justify-content-evenly mt-3">
+              </div>
+              <div className="d-flex justify-content-evenly mt-3">
                 <div className="sharing_info_box">
                   <h6>{item.Method4}</h6>
                   <p className="fs-6 mb-1">{item.Title1}</p>
                   <div className="d-flex justify-content-between">
                     <h6>{item.Rent4}</h6>
-                    <h6 className="me-2">{item.Fac2}</h6>
                   </div>
                 </div>
                 <div className="sharing_info_box">
@@ -124,7 +120,6 @@ const RoomDetails = ({ page }) => {
                   <p className="fs-6 mb-1">{item.Title1}</p>
                   <div className="d-flex justify-content-between">
                     <h6>{item.Rent5}</h6>
-                    <h6 className="me-2">{item.Fac1}</h6>
                   </div>
                 </div>
                 <div className="sharing_info_box">
@@ -132,23 +127,24 @@ const RoomDetails = ({ page }) => {
                   <p className="fs-6 mb-1">{item.Title1}</p>
                   <div className="d-flex justify-content-between">
                     <h6>{item.Rent6}</h6>
-                    <h6 className="me-2">{item.Fac1}</h6>
                   </div>
                 </div>
               </div> */}
               <div className="imp_info_tag">
-                <h5 className="text-light text-center fst-italic mt-2"><IoWalletOutline className="fs-3 me-2 mb-1"/>No delays on your monthly rent</h5>
+                <h5 className="text-light text-center fst-italic mt-2">
+                  <IoWalletOutline className="fs-3 me-2 mb-1" />
+                  No delays on your monthly rent
+                </h5>
               </div>
-              {/* <h2>
+              <h2>
                 Food <span className="color">Menu</span>
               </h2>
-              <p>{item.FoodInfo}</p>
-              <div className="food_info_box_1">
-                <h5>Weekdays</h5>
+              <p className="fst-italic pb-0">{item.FoodInfo}</p>
+              <div className="d-flex justify-content-between">
+                <p>{item.BreakfastTime}</p>
+                <p>{item.LunchTime}</p>
+                <p>{item.DinnerTime}</p>
               </div>
-              <div className="food_info_box_2">
-                <h5>Weekends</h5>
-              </div> */}
               <Amenities />
               <h2>
                 Pay For What <span className="color">You Use</span>
@@ -157,18 +153,19 @@ const RoomDetails = ({ page }) => {
               <p className="content_style">{item.PayInfoContent}</p>
               <h6>{item.PayInfoSubTitle}</h6>
               <p className="content_style">{item.PayInfoSubContent}</p>
-              <h2>Important<span className="color"> Information</span></h2>
-              <p className="content_style">Food is served in the common dining area and the timings are:-</p>
-              <div className="d-flex justify-content-between">
-              <p>{item.BreakfastTime}</p>
-              <p>{item.LunchTime}</p>
-              <p>{item.DinnerTime}</p>
-              </div>
+              {/* <h2>
+                Important<span className="color"> Information</span>
+              </h2>
+              <p className="content_style">
+                {item.FoodInfo1}
+              </p> */}
             </div>
           ))}
         </div>
         <div className="room_booking_form">
-          <BookingForm/>
+          {page.map((item, index) => (
+            <BookingForm key={index} Id={item.Id} />
+          ))}
         </div>
       </div>
     </div>
