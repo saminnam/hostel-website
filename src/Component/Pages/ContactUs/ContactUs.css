@@ -1,0 +1,111 @@
+.sec_1_contact_page {
+    margin-top: 10%;
+}
+
+.contactus_info_box {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-image: url("../../../Assets/bck_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactus_info_box_top {
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid #000; */
+    /* background-color: #05294A; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contactus_info_box_bottom {
+    /* background-color: #123B60; */
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+}
+
+.box_right {
+    margin-top: 2%;
+    padding: 30px;
+    width: 50%;
+    /* border: 1px solid #000; */
+    border-radius: 10px;
+    box-shadow: -2px -2px 0px orange, -2px 2px 0px orange, 2px 2px 0px orange;
+}
+
+.box_right input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box_right label {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.msg_box {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-color: #CECECE;
+    border-radius: 10px;
+}
+
+.box_right button {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid orange;
+    color: #fff;
+    background-color: orange;
+    padding: 15px;
+    transition: 0.2s ease;
+}
+
+.box_right button:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.box_map {
+    position: absolute;
+    top: 50px; /* Adjust this based on where you want the map to appear */
+    left: 120px; /* Adjust based on your layout */
+    width: 370px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    overflow: hidden; /* Ensure the iframe fits inside the border */
+  }
+  
+  .g-mapdisplay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove iframe default border */
+  }
+  
+.box_left {
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.letter_icon {
+    position: absolute;
+    top: 240px;
+    right: 70px;
+}
+
+.contactus_underline {
+    position: absolute;
+    height: 3px;
+    width: 40%;
+    background-color: #000;
+    top: 130px;
+    right: 80px;
+}

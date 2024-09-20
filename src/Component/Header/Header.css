@@ -1,0 +1,59 @@
+.header {
+    /* background-color: #EAEDF0; */
+    /* background-color: #fff; */
+    background-image: url("../../Assets/bk_1.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* border-bottom: 1px solid #000; */
+    transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo  {
+    padding-bottom: 10px;
+}
+
+.header_btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color:  tomato;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+.header_list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    /* transition: 0.2s ease; */
+}
+
+/* .hover_shadow:hover {
+   
+    border-bottom: 3px solid tomato;
+} */
+.header_list li a {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; /* Add some space for the underline */
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .header_list li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: tomato; /* Change this color to your preferred underline color */
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .header_list li a:hover::after {
+    width: 100%; /* Expands the underline to full width */
+  }
+  
