@@ -5,6 +5,7 @@ import SectionTwo from '../../SectionTwo/SectionTwo';
 import SectionThree from '../../SectionThree/SectionThree';
 import SectionFour from '../../SectionFour/SectionFour';
 import SectionFive from '../../SectionFive/SectionFive';
+import MediaIcons from '../../MediaIcons/MediaIcons';
 
 const Home = ({page,setPage}) => {
   return (
@@ -15,6 +16,7 @@ const Home = ({page,setPage}) => {
       <SectionThree/>
       <SectionFour/>
       <SectionFive/>
+      <MediaIcons/>
     </div>
   )
 }

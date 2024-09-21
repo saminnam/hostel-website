@@ -83,3 +83,28 @@
         height: 300px;
     }
 }
+
+@media (max-width: 990px) {
+    .room_details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .room_info_box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .room_booking_form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .icon_map {
+        display: none;
+    }
+    .address {
+        padding-right: 0;
+    }
+    .room_info_box img {
+        height: 300px;
+    }
+}

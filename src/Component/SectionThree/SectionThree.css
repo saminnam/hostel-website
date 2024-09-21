@@ -62,3 +62,47 @@
         display: none;
     }
 }
+
+@media (max-width: 1024px) {
+    .img_absolute,
+    .bed_img
+    {
+        display: none;
+    }
+    .sub_content {
+        font-size: 10px;
+        text-align: center;
+    }
+    .content {
+        text-align: center;
+    }
+
+    .col {
+        flex: none;
+    }
+    .footer_list_1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img_absolute,
+    .bed_img
+    {
+        display: none;
+    }
+    .sub_content {
+        font-size: 10px;
+        text-align: center;
+    }
+    .content {
+        text-align: center;
+    }
+
+    .col {
+        flex: none;
+    }
+    .footer_list_1 {
+        display: none;
+    }
+}

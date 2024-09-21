@@ -5,6 +5,9 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { RiArrowUpDoubleFill } from "react-icons/ri";
 
 const MediaIcons = () => {
+  function scrollbtn() {
+    window.scrollTo(0, 0); 
+  }
   return (
     <div className="media_icons">
       <ul className="media_icons_right">
@@ -44,9 +47,9 @@ const MediaIcons = () => {
             <FaInstagram className="icons it" />
           </a>
         </li>
-        <li className="fs-2 pe-2">
+        <li className="fs-2 pe-2" onClick={scrollbtn}>
           <a
-            href="#top"
+            href="#"
           >
             <RiArrowUpDoubleFill className="icons lk" />
           </a>

@@ -111,16 +111,15 @@
 @media (max-width: 640px) {
     .box_left,
     .box_map,
-    .letter_icon
-     {
-        display: none;
+    .letter_icon {
+      display: none;
     }
     .box_right {
-        margin-top: 2%;
-        padding: 20px;
-        width: 100%;
-        border-radius: 10px;
-        border: 1px solid tomato;
+      margin-top: 2%;
+      padding: 20px;
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid tomato;
     }
-
-}
+  }
+  

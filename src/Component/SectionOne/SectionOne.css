@@ -152,3 +152,28 @@
     display: none;
   }
 }
+
+@media (max-width: 1024px) {
+    .sec_1_main_page_title {
+      font-size: 20px;
+    }
+  
+    .carousel_section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .bottom_design_1 {
+      display: none;
+    }
+  }
+
+  
+@media (min-width: 1024px) {
+  
+    .bottom_design_1 {
+      display: none;
+    }
+  }
+
+  

@@ -63,7 +63,7 @@
 
 @media (max-width: 640px) {
     .media_icons_right {
-        position: absolute;
+        position: fixed;
         right: 0;
     }
 }

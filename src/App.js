@@ -9,7 +9,6 @@ import Home from "./Component/Pages/Home/Home";
 import AOS from "aos"; // Import AOS library
 import "aos/dist/aos.css"; // Import AOS CSS for animations
 import Footer from "./Component/Footer/Footer";
-import MediaIcons from "./Component/MediaIcons/MediaIcons";
 import AboutUs from "./Component/Pages/AboutUs/AboutUs";
 import ContactUs from "./Component/Pages/ContactUs/ContactUs";
 import Blogs from "./Component/Pages/Blogs/Blogs";
@@ -39,7 +38,6 @@ const App = () => {
           <Route path="/facilities" element={<HostelFacilities setShowLogin={setShowLogin}/>}/>
           <Route path="/room_details" element={<RoomDetails page={page} setPage={setPage}/>}/>
         </Routes>
-        <MediaIcons/>
         <Footer/>
       </BrowserRouter>
     </>
