@@ -19,7 +19,7 @@ const SectionFour = () => {
               />
             </div>
           </div>
-          <div className="col pe-5 me-5">
+          <div className="col">
             <h1 className="content">
               <span className="color"> Multiple facilities </span>
               for the Hostel visitors

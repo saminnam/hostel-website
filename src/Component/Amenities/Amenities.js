@@ -7,7 +7,6 @@ import { LiaBitbucket } from "react-icons/lia";
 import { IoWaterOutline } from "react-icons/io5";
 import { TbWashMachine } from "react-icons/tb";
 import { GiWifiRouter } from "react-icons/gi";
-import { RiFridgeLine } from "react-icons/ri";
 import { LuBedSingle } from "react-icons/lu";
 import { PiBathtub } from "react-icons/pi";
 import { GiPillow } from "react-icons/gi";
@@ -19,7 +18,7 @@ const Amenities = () => {
       <h2 className="mt-0">
         First Class <span className="color">Amenities</span>{" "}
       </h2>
-      <div className="box_amenities d-flex justify-content-evenly">
+      <div className="box_amenities d-flex ">
         <div className="col">
           <h6>
             <RiParkingBoxLine className="icon" />

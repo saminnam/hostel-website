@@ -60,3 +60,10 @@
     background-color: rgba(2, 2, 249, 0.795);
     color: #fff;
 }
+
+@media (max-width: 640px) {
+    .media_icons_right {
+        position: absolute;
+        right: 0;
+    }
+}

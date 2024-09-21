@@ -1,7 +1,6 @@
 .room_info_box {
     padding: 18px;
     width: 55%;
-    /* border: 1px solid #000; */
     box-shadow: 0 5px 10px #CECECE;
 }
 
@@ -32,49 +31,10 @@
     margin-bottom: 10px;
 }
 
-.sharing_info_box {
-    border: 1px solid #CECECE;
-    width: 190px;
-    /* clip-path: polygon(0px 94%, 100% 100%, 100% 0px, 0px 6%); */
-    padding: 8px;
-    height: auto;
-    background-color: #eeeeee;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s ease;
-}
-
 .content_style {
-    /* font-family: "Space Grotesk", sans-serif; */
     font-family: "Poppins", sans-serif;
     font-size: 13px;
 }
-
-.sharing_info_box:hover {
-    background-color: #F36E38;
-    box-shadow: 0 5px 8px #ea855d;
-    color: #fff;
-}
-
-/* .food_info_box_1 {
-    margin-bottom: 5px;
-    width: 120px;
-    padding: 10px;
-    background-color: #000;
-    border: 1px solid #000;
-    border-radius: 5px;
-    color: #fff;
-} */
-
-/* .food_info_box_2 {
-    margin-bottom: 5px;
-    width: 120px;
-    padding: 10px;
-    background-color: tomato;
-    border: 1px solid tomato;
-    border-radius: 5px;
-    color: #fff;
-} */
 
 .imp_info_tag {
     background-color: tomato;
@@ -97,4 +57,29 @@
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 0 5px 10px #CECECE;
+}
+
+@media (max-width: 640px) {
+    .room_details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .room_info_box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .room_booking_form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .icon_map {
+        display: none;
+    }
+    .address {
+        padding-right: 0;
+    }
+    .room_info_box img {
+        height: 300px;
+    }
 }

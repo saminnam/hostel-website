@@ -20,7 +20,6 @@ const Footer = () => {
               <div className="footer_logo">
                 <Link to="/">
                   {" "}
-                  {/* Using Link for internal navigation */}
                   <img
                     src={Assets.main_logo1}
                     alt="logo"
@@ -28,43 +27,37 @@ const Footer = () => {
                     width={220}
                   />
                 </Link>
-                {/* <h4 className="text-white text-end">Hi Tech</h4> */}
               </div>
             </div>
             <div className="col">
-              <ul className="footer_list">
+              <ul className="footer_list footer_list_1">
                 <li>
                   <Link to="/about_us">About Us</Link>{" "}
-                  {/* Link to About Us component */}
                 </li>
                 <li>
                   <Link to="/our_team">Team</Link>{" "}
-                  {/* Link to Team component */}
                 </li>
                 <li>
                   <Link to="/investors">Investor Relations</Link>{" "}
-                  {/* Link to Investor Relations component */}
                 </li>
                 <li>
-                  <Link to="/media">Media</Link> {/* Link to Media component */}
+                  <Link to="/media">Media</Link> 
                 </li>
               </ul>
             </div>
             <div className="col">
               <ul className="footer_list">
                 <li>
-                  <Link to="/blogs">Blogs</Link> {/* Link to Blogs component */}
+                  <Link to="/blogs">Blogs</Link>
                 </li>
                 <li>
-                  <Link to="/faqs">FAQs</Link> {/* Link to FAQs component */}
+                  <Link to="/faqs">FAQs</Link>
                 </li>
                 <li>
                   <Link to="/facilities">Hostel Facilities</Link>{" "}
-                  {/* Link to Hostel Facilities component */}
                 </li>
                 <li>
                   <Link to="/hostel_rules">Hostel Rules</Link>{" "}
-                  {/* Link to Hostel Rules component */}
                 </li>
               </ul>
             </div>
@@ -72,15 +65,12 @@ const Footer = () => {
               <ul className="footer_list">
                 <li>
                   <Link to="/terms-and-conditions">T&C</Link>{" "}
-                  {/* Link to Terms & Conditions component */}
                 </li>
                 <li>
                   <Link to="/privacy-policy">Privacy Policy</Link>{" "}
-                  {/* Link to Privacy Policy component */}
                 </li>
                 <li>
                   <Link to="/contact_us">Contact Us</Link>{" "}
-                  {/* Link to Contact Us component */}
                 </li>
               </ul>
             </div>
@@ -138,7 +128,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="footer_line"></div> */}
           </div>
         </div>
       </div>

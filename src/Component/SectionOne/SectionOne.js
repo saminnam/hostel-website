@@ -15,13 +15,13 @@ const SectionOne = ({ page, setPage }) => {
     setPage([dd]);
   };
   return (
-    <div className="sec_2_main_page container section_gap">
-      <h3 className="text-center sec_2_main_page_title">
+    <div className="sec_1_main_page container section_gap">
+      <h3 className="text-center sec_1_main_page_title">
         <span className="color">Chennai's</span> Most Secure PG Homes <br /> for
         Peaceful Living
       </h3>
       <img src={Assets.bottom_design} className="bottom_design_1" alt="design"/>
-      <div className="sec_2_locaitons_card mt-5 pt-2" data-aos="fade-up">
+      <div className="sec_1_locaitons_card mt-5 pt-2" data-aos="fade-up">
         <div
           id="carouselExampleIndicators"
           className="carousel slide position-relative"
@@ -47,17 +47,17 @@ const SectionOne = ({ page, setPage }) => {
           <div className="carousel-inner">
             {/* First Set of Properties */}
             <div className="carousel-item active">
-              <div className="d-flex justify-content-between gap-4">
+              <div className="d-flex carousel_section justify-content-between gap-4">
                 {property1.map((item) => (
-                  <div className="sec_2_box" key={item.Id}>
+                  <div className="sec_1_box" key={item.Id}>
                     <img src={item.Image} alt="item" />
-                    <div className="sec_2_box_body">
+                    <div className="sec_1_box_body">
                       <div className="d-flex justify-content-between">
                         <div>
-                          <h4 className="sec_2_box_title fst-italic">
+                          <h4 className="sec_1_box_title fst-italic">
                             <span className="color">{item.Brand}</span> Hi Tech
                           </h4>
-                          <h6 className="sec_2_box_text">{item.Address}</h6>
+                          <h6 className="sec_1_box_text">{item.Address}</h6>
                         </div>
                         <div className="field_btn">
                           <div className="btn_male">
@@ -69,9 +69,9 @@ const SectionOne = ({ page, setPage }) => {
                     </div>
                     <div className="line"></div>
                     <div className="d-flex justify-content-between">
-                      <div className="sec_2_box_body">
-                        <h6 className="sec_2_box_text">{item.Title}</h6>
-                        <h5 className="sec_2_box_title">{item.Rent}</h5>
+                      <div className="sec_1_box_body">
+                        <h6 className="sec_1_box_text">{item.Title}</h6>
+                        <h5 className="sec_1_box_title">{item.Rent}</h5>
                       </div>
 
                       <div className="field_btn mt-3">
@@ -90,17 +90,17 @@ const SectionOne = ({ page, setPage }) => {
 
             {/* Second Set of Properties */}
             <div className="carousel-item">
-              <div className="d-flex justify-content-between gap-4">
+              <div className="d-flex carousel_section justify-content-between gap-4">
                 {property2.map((item) => (
-                  <div className="sec_2_box" key={item.Id}>
+                  <div className="sec_1_box" key={item.Id}>
                     <img src={item.Image} alt="" />
-                    <div className="sec_2_box_body">
+                    <div className="sec_1_box_body">
                       <div className="d-flex justify-content-between">
                         <div>
-                          <h4 className="sec_2_box_title fst-italic">
+                          <h4 className="sec_1_box_title fst-italic">
                             <span className="color">{item.Brand}</span> Hi Tech
                           </h4>
-                          <h6 className="sec_2_box_text">{item.Address}</h6>
+                          <h6 className="sec_1_box_text">{item.Address}</h6>
                         </div>
                         <div className="field_btn">
                           <div className="btn_male">
@@ -112,9 +112,9 @@ const SectionOne = ({ page, setPage }) => {
                     </div>
                     <div className="line"></div>
                     <div className="d-flex justify-content-between">
-                      <div className="sec_2_box_body">
-                        <h6 className="sec_2_box_text">{item.Title}</h6>
-                        <h5 className="sec_2_box_title">{item.Rent}</h5>
+                      <div className="sec_1_box_body">
+                        <h6 className="sec_1_box_text">{item.Title}</h6>
+                        <h5 className="sec_1_box_title">{item.Rent}</h5>
                       </div>
 
                       <div className="field_btn mt-3">

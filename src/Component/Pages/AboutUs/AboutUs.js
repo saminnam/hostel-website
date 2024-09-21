@@ -25,10 +25,10 @@ const AboutUs = () => {
                   className="sec_2_about_us_left_info mt-5 pt-5"
                   data-aos="fade-down-right"
                 >
-                  <h1 className="content me-5 pe-5 pb-4">
+                  <h1 className="content pb-4">
                     <span className="color">Take Rest</span> and make it best
                   </h1>
-                  <p className="sub_content me-5 pe-5">
+                  <p className="sub_content me-5">
                     Hostel beds offer a practical solution for travelers and
                     students seeking affordable and communal lodging. They are
                     typically designed for functionality and comfort, providing
@@ -56,11 +56,11 @@ const AboutUs = () => {
                   className="sec_2_about_us_left_info mt-5 pt-5"
                   data-aos="zoom-in-left"
                 >
-                  <h1 className="content pb-4 ps-5 ms-5">
+                  <h1 className="content pb-4">
                     Discover Your Ideal Apartment{" "}
                     <span className="color">with Us</span>
                   </h1>
-                  <p className="sub_content ps-5 ms-5">
+                  <p className="sub_content">
                     Our properties feature modern amenities, convenient
                     locations, and a commitment to comfort and quality. With a
                     focus on exceptional service, we aim to make your apartment
@@ -81,11 +81,11 @@ const AboutUs = () => {
                   className="sec_2_about_us_left_info  mt-5 pt-5"
                   data-aos="zoom-in-down"
                 >
-                  <h1 className="content me-5 pe-4 pb-4">
+                  <h1 className="content pb-4">
                     <span className="color">Meet your new friends </span> from
                     multiple countries
                   </h1>
-                  <p className="sub_content me-5 pe-5">
+                  <p className="sub_content">
                     Friendship is a cherished bond that offers support and
                     companionship through life's ups and downs. It thrives on
                     trust, understanding, and shared experiences, creating a

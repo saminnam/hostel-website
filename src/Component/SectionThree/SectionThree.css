@@ -1,5 +1,4 @@
 .sec_3_main_page {
-    /* background-color: #eff4f4; */
     position: relative;
     padding: 10% 0;
 }
@@ -9,7 +8,6 @@
 }
 
 .sec_3_main_page_icons_left .card {
-    /* background-color: #eff4f4; */
     border: none;
 }
 
@@ -41,4 +39,26 @@
 .bed_img {
     border-radius: 20px;
     box-shadow: 5px 8px #fff;
+}
+
+@media (max-width: 640px) {
+    .img_absolute,
+    .bed_img
+    {
+        display: none;
+    }
+    .sub_content {
+        font-size: 10px;
+        text-align: center;
+    }
+    .content {
+        text-align: center;
+    }
+
+    .col {
+        flex: none;
+    }
+    .footer_list_1 {
+        display: none;
+    }
 }

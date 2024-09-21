@@ -8,7 +8,7 @@ import BookingForm from "../BookingForm/BookingForm";
 const RoomDetails = ({ page }) => {
   return (
     <div className="container my-5">
-      <div className="d-flex justify-content-between">
+      <div className="d-flex room_details justify-content-between">
         <div className="room_info_box">
           {page.map((item, index) => (
             <div key={index}>
@@ -84,52 +84,7 @@ const RoomDetails = ({ page }) => {
                 Room <span className="color">Details</span>
               </h2>
               <p className="content_style">{item.RoomInfo}</p>
-              {/* <div className="d-flex justify-content-evenly">
-                <div className="sharing_info_box">
-                  <h6>{item.Method1}</h6>
-                  <p className="fs-6 mb-1">{item.Title1}</p>
-                  <div className="d-flex justify-content-between">
-                    <h6>{item.Rent1}</h6>
-                  </div>
-                </div>
-                <div className="sharing_info_box">
-                  <h6>{item.Method2}</h6>
-                  <p className="fs-6 mb-1">{item.Title1}</p>
-                  <div className="d-flex justify-content-between">
-                    <h6>{item.Rent2}</h6>
-                  </div>
-                </div>
-                <div className="sharing_info_box">
-                  <h6>{item.Method3}</h6>
-                  <p className="fs-6 mb-1">{item.Title1}</p>
-                  <div className="d-flex justify-content-between">
-                    <h6>{item.Rent3}</h6>
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex justify-content-evenly mt-3">
-                <div className="sharing_info_box">
-                  <h6>{item.Method4}</h6>
-                  <p className="fs-6 mb-1">{item.Title1}</p>
-                  <div className="d-flex justify-content-between">
-                    <h6>{item.Rent4}</h6>
-                  </div>
-                </div>
-                <div className="sharing_info_box">
-                  <h6>{item.Method5}</h6>
-                  <p className="fs-6 mb-1">{item.Title1}</p>
-                  <div className="d-flex justify-content-between">
-                    <h6>{item.Rent5}</h6>
-                  </div>
-                </div>
-                <div className="sharing_info_box">
-                  <h6>{item.Method6}</h6>
-                  <p className="fs-6 mb-1">{item.Title1}</p>
-                  <div className="d-flex justify-content-between">
-                    <h6>{item.Rent6}</h6>
-                  </div>
-                </div>
-              </div> */}
+              
               <div className="imp_info_tag">
                 <h5 className="text-light text-center fst-italic mt-2">
                   <IoWalletOutline className="fs-3 me-2 mb-1" />
@@ -153,12 +108,6 @@ const RoomDetails = ({ page }) => {
               <p className="content_style">{item.PayInfoContent}</p>
               <h6>{item.PayInfoSubTitle}</h6>
               <p className="content_style">{item.PayInfoSubContent}</p>
-              {/* <h2>
-                Important<span className="color"> Information</span>
-              </h2>
-              <p className="content_style">
-                {item.FoodInfo1}
-              </p> */}
             </div>
           ))}
         </div>

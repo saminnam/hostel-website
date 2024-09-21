@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import anime from "animejs"; // Import anime.js
-import AOS from "aos"; // Import AOS for animations
-import "aos/dist/aos.css"; // Import AOS CSS
+import anime from "animejs"; 
+import AOS from "aos"; 
+import "aos/dist/aos.css";
 import "./HeroSection.css";
 import { Assets } from "../../Assets/Assets";
 

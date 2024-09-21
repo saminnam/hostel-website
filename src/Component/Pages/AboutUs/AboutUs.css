@@ -1,0 +1,14 @@
+@media (max-width: 640px) {
+    .title_bck_img {
+        display: none;
+    }
+    .content {
+        font-size: 25px;
+        align-items: center;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .sec_2_about_us {
+        margin-top: 0;
+    }
+}

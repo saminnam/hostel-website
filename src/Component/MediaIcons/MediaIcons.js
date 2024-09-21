@@ -3,7 +3,6 @@ import "./MediaIcons.css";
 import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { RiArrowUpDoubleFill } from "react-icons/ri";
-import Header from "../Header/Header";
 
 const MediaIcons = () => {
   return (

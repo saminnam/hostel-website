@@ -10,7 +10,7 @@ header {
     max-width: 1280px;
     padding: 94px 20px;
     margin: 0 auto;
-  }
+}
 
   .hero-grid {
     display: grid;
@@ -19,11 +19,6 @@ header {
     align-items: center;
   }
 
-  @media (min-width: 1024px) {
-    .hero-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
 
   .hero-content {
     display: flex;
@@ -36,24 +31,11 @@ header {
     font-weight: bold;
   }
 
-  @media (min-width: 768px) {
-    .hero-title {
-      font-size: 44px;
-    }
-  }
-
   .hero-description {
     margin-bottom: 24px;
     max-width: 640px;
     font-size: 14px;
     color: #6b7280;
-  }
-
-  @media (min-width: 640px) {
-    .hero-description {
-      font-size: 18px;
-      margin-bottom: 40px;
-    }
   }
 
   .hero-form {
@@ -93,16 +75,6 @@ header {
     color: white; /* Ensure the text color remains readable */
   }
   
-
-  @media (min-width: 640px) {
-    .submit-btn {
-      position: absolute;
-      right: 132px;
-      top: 0;
-      width: auto;
-    }
-  }
-
   .hero-info-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -119,12 +91,6 @@ header {
     font-weight: bold;
   }
 
-  @media (min-width: 768px) {
-    .info-title {
-      font-size: 32px;
-    }
-  }
-
   .info-text {
     font-size: 14px;
     color: #6b7280;
@@ -133,6 +99,52 @@ header {
   .hero-image img {
     width: 700px;
     position: absolute;
-    top: 207px;
+    top: 213px;
     right: 0;
   }
+
+  @media (min-width: 1024px) {
+    .hero-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .info-title {
+      font-size: 32px;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .submit-btn {
+      position: absolute;
+      right: 132px;
+      top: 0;
+      width: auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 44px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero-image,
+    .submit-btn,
+    form {
+      display: none;
+    }
+    .hero-title {
+      font-size: 20px;
+    }
+
+    .info-title,
+    .info-text
+     {
+      font-size: 10px;
+    }
+  }
+
+  
