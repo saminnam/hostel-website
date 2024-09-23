@@ -23,7 +23,7 @@ const AboutUs = () => {
               <div className="col-lg-6 col-12">
                 <div
                   className="sec_2_about_us_left_info mt-3 pt-md-5"
-                  data-aos="fade-down-right"
+                
                 >
                   <h1 className="content pb-3">
                     <span className="color">Take Rest</span> and make it best
@@ -37,7 +37,7 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-5 col-12 sec_about_us" data-aos="fade-down-left">
+              <div className="col-lg-5 col-12 sec_about_us">
                 <img src={Assets.bed_3} className="img-fluid" alt="bed" />
               </div>
             </div>
@@ -49,13 +49,13 @@ const AboutUs = () => {
         <div className="sec_3_about_us section_gap">
           <div className="container">
             <div className="row align-items-center justify-content-center gap-5">
-              <div className="col-lg-5 col-12 sec_about_us" data-aos="zoom-in-down">
+              <div className="col-lg-5 col-12 sec_about_us">
                 <img src={Assets.appartment} className="img-fluid" alt="apartment" />
               </div>
               <div className="col-lg-6 col-12">
                 <div
                   className="sec_2_about_us_left_info mt-3 pt-md-5"
-                  data-aos="zoom-in-left"
+
                 >
                   <h1 className="content pb-3">
                     Discover Your Ideal Apartment <span className="color">with Us</span>
@@ -79,7 +79,7 @@ const AboutUs = () => {
               <div className="col-lg-6 col-12">
                 <div
                   className="sec_2_about_us_left_info mt-3 pt-md-5"
-                  data-aos="zoom-in-down"
+              
                 >
                   <h1 className="content pb-3">
                     <span className="color">Meet your new friends </span> from
@@ -93,7 +93,7 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-5 col-12 sec_about_us" data-aos="fade-down-left">
+              <div className="col-lg-5 col-12 sec_about_us">
                 <img src={Assets.people} className="img-fluid" alt="people" />
               </div>
             </div>
