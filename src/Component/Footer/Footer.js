@@ -13,7 +13,7 @@ import { Assets } from "../../Assets/Assets";
 const Footer = () => {
   return (
     <>
-      <div id="footer" className="py-5 footer_menu section_gap">
+      <div id="footer" className="py-5 footer section_gap">
         <div className="container">
           <div className="row">
             <div className="col">

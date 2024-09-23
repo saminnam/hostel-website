@@ -12,12 +12,7 @@
     transition: 0.2s ease;
 }
 
-.form_btn_1 {
-    padding: 15px;
+.form_btn:hover {
     background-color: transparent;
-    border: 1px solid tomato;
-    color: tomato;
-    border-radius: 5px;
-    /* font-weight: bold; */
-    transition: 0.2s ease;
+    color: #000;
 }

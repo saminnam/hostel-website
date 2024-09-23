@@ -61,6 +61,7 @@ import  bck_1 from './bck_1.png';
 import  bck_2 from './bck_2.png';
 import  bck_3 from './bck_3.png';
 import  bck_4 from './bck_4.png';
+import  bck_5 from './bck_5.png';
 import frontlook from './frontlook.webp';
 import breakfast_icon from './breakfast_icon.png';
 import bottom_design from './bottom_design.png';
@@ -80,6 +81,7 @@ export const Assets = {
     bck_2,
     bck_3,
     bck_4,
+    bck_5,
     blog_1,
     blog_2,
     blog_3,

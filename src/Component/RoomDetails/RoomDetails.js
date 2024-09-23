@@ -20,7 +20,7 @@ const RoomDetails = ({ page }) => {
                   <p className="address">{item.RoomAddress}</p>
                 </div>
                 <div className="icon_map">
-                  <a href="">
+                  <a href={item.GoogleMapLink}>
                     <CiLocationOn className="fs-2 color" />
                   </a>
                 </div>
@@ -113,7 +113,7 @@ const RoomDetails = ({ page }) => {
         </div>
         <div className="room_booking_form">
           {page.map((item, index) => (
-            <BookingForm key={index} Id={item.Id} />
+            <BookingForm key={index} Id={item.Id} page={page}/>
           ))}
         </div>
       </div>

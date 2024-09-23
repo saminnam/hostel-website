@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./BookingForm.css";
 
-const BookingForm = ({ Id }) => {
+const BookingForm = ({ Id, page = [] }) => {
   // State to hold the form input values and errors
   const [formData, setFormData] = useState({
     name: "",
@@ -109,7 +109,7 @@ const BookingForm = ({ Id }) => {
         />
       </div>
       {errors.name && <p className="text-danger">{errors.name}</p>}
-
+      
       {/* Email input field */}
       <div className="input-group mb-3">
         <input
@@ -173,6 +173,14 @@ const BookingForm = ({ Id }) => {
         </ul>
       </div>
       {errors.roomType && <p className="text-danger">{errors.roomType}</p>}
+
+      {/* Location input fields */}
+      {page.length > 0 && page.map((item, index) => (
+        <div key={index} className="mb-3">
+          <h6 className="text-secondary">Room Location</h6>
+          <textarea className="form-control" placeholder={item.RoomAddress} readOnly />
+        </div>
+      ))}
 
       {/* Form buttons */}
       <div className="btn_field text-center">

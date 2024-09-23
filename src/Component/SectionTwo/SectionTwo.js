@@ -16,7 +16,7 @@ const SectionTwo = () => {
           home.
         </p>
         <div className="d-flex sec_2_box_info justify-content-center gap-3 align-items-center">
-          <div className="sec_2_box_info_body">
+          <div className="sec_2_box_info_body" data-aos="fade-right">
             <h4 className="sec_2_box_info_title text-center">1-Month security deposit</h4>
             <img src={Assets.deposit_img} alt="deposit" width={150} />
             <p className="sec_2_box_info_text text-center font">
@@ -24,7 +24,7 @@ const SectionTwo = () => {
               security deposit. Get started with peace of mind.
             </p>
           </div>
-          <div className="sec_2_box_info_body">
+          <div className="sec_2_box_info_body" data-aos="fade-right">
             <h4 className="sec_2_box_info_title text-center">Flexible sharing option</h4>
             <img src={Assets.share_img} alt="share" width={150} />
             <p className="sec_2_box_info_text text-center font">
@@ -32,7 +32,7 @@ const SectionTwo = () => {
               flexible room sharing option.
             </p>
           </div>
-          <div className="sec_2_box_info_body">
+          <div className="sec_2_box_info_body" data-aos="fade-left">
             <h4 className="sec_2_box_info_title text-center">Friendly ecosystem</h4>
             <img src={Assets.eco_img} alt="ecosystem" width={150} />
             <p className="sec_2_box_info_text text-center font">
@@ -40,7 +40,7 @@ const SectionTwo = () => {
               memories with your roommates.
             </p>
           </div>
-          <div className="sec_2_box_info_body">
+          <div className="sec_2_box_info_body" data-aos="fade-left">
             <h4 className="sec_2_box_info_title text-center">Flexible workspace</h4>
             <img src={Assets.workspace_img} alt="workspace" width={150} />
             <p className="sec_2_box_info_text text-center font">

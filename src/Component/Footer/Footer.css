@@ -1,6 +1,12 @@
-.footer_menu {
-    /* background-color: #202C45; */
-    background-color: #000;
+.footer
+{
+    padding: 60px;
+    background-image: url("../../Assets/bck_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_list {
+    padding: 0;
 }
 
 .footer_list li {
@@ -10,11 +16,12 @@
 
 .footer_list li a {
     text-decoration: none;
-    color: #fff;
+    color: #8c8a8a;
+    padding: 0;
 }
 
 .footer_list li a:hover {
-    border-bottom: 2px solid #fff;
+    color: tomato;
     transition: 0.2s ease;
 }
 
@@ -27,11 +34,6 @@
 {
     color: blue;
     cursor: pointer;
-}
-
-.footer
-{
-    background-color: #202C45;
 }
 
 .icons
@@ -85,7 +87,23 @@
 }
 
 .footer_info {
-    background-color: #fff;
+    background-color: #000;
     width: 100%;
     padding: 20px;
+}
+
+.border_right {
+    border-right: 1px solid #8c8a8a;
+}
+
+.highlighter {
+    background-color: tomato;
+    height: 3px;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .border_right {
+        display: none;
+    }
 }
