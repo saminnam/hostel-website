@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./SectionThree.css";
 import { Assets } from "../../Assets/Assets";
 
 
 const SectionThree = () => {
-  const [isHovered, setIsHovered] = useState(false);
   return (
     <section
       className="sec_3_main_page section_gap"
-      onMouseEnter={() => setIsHovered(true)} // Set hover to true on mouse enter
-      onMouseLeave={() => setIsHovered(false)}
     >
       <div className="container">
         <div className="row d-flex">
@@ -49,9 +46,7 @@ const SectionThree = () => {
           </div>
           <div className="col">
             <div className="d-flex justify-content-end align-items-end">
-              <div className={`img_absolute ${isHovered ? "slide-in" : ""}`}>
-                {" "}
-                {/* Add class based on hover */}
+              <div className="img_absolute">
                 <img
                   src={Assets.bed_1}
                   width={380}
