@@ -1,0 +1,28 @@
+.sec_4_main_page {
+    background-color: #eff4f4;
+    position: relative;
+    padding: 8% 0;
+}
+
+.sec_4_main_page_icons_left {
+    margin-top: 10%;
+}
+
+.sec_4_main_page_icons_left .card {
+    background-color: #eff4f4;
+    border: none;
+}
+
+.sec_4_main_page_icons_left .card img {
+    align-self: center;
+}
+
+.content {
+    font-size: 50px;
+}
+
+.bed_img {
+    border-radius: 20px;
+    box-shadow: 5px 8px #fff;
+    transition: transform 0.5s ease;
+}

@@ -1,0 +1,31 @@
+.btn_field {
+    margin-top: 20%;
+}
+
+.form_btn {
+    margin: 12px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    background: tomato;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: -5px -5px 15px tomato, 5px 5px 15px tomato, inset 5px 5px 10px tomato,
+      inset -5px -5px 10px tomato; */
+    font-family: "Damion", cursive;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    transition: 500ms;
+  }
+  
+.form_btn:hover {
+    box-shadow: -5px -5px 15px  #fff, 5px 5px 15px #fff, inset 5px 5px 10px #fff,
+      inset -5px -5px 10px  #fff;
+    color: #000;
+    border: 1px solid tomato;
+    background-color: transparent;
+    transition: 500ms;
+  }
+  

@@ -1,0 +1,69 @@
+.media_icons_right {
+    position: fixed;
+    right: 20px;
+    top: 280px;
+}
+
+.media_icons_right li:hover {
+    animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.media_icons_right li a {
+    color: #000;
+}
+
+.icons
+{
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.icons:hover
+{
+    transform: scale(1.05);
+}
+
+.icons.wt:hover
+{
+    background-color: rgb(77, 246, 77);
+    color: #fff;
+}
+
+.icons.fb:hover
+{
+    background-color: rgba(2, 2, 249, 0.795);
+    color: #fff;
+}
+
+.icons.yt:hover
+{
+    background-color: red;
+    color: #fff;
+}
+
+.icons.it:hover
+{
+    background-color: rgb(181, 35, 139);
+    color: #fff;
+}
+
+.icons.lk:hover
+{
+    background-color: rgba(2, 2, 249, 0.795);
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .media_icons_right {
+        position: fixed;
+        right: 0;
+    }
+}

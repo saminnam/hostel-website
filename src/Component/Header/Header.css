@@ -1,0 +1,49 @@
+.navbar {
+    background-image: url("../../Assets/bk_1.jpg");
+    background-repeat: no-repeat;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo  {
+    padding-bottom: 10px;
+}
+
+.header_btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color:  tomato;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+.nav_list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav_list li a {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav_list li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: tomato; 
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav_list li a:hover::after {
+    width: 100%; 
+  }
+  

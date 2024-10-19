@@ -1,0 +1,34 @@
+.section_gap {
+    margin-top: 10%;
+}
+
+.content {
+    font-size: 50px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+
+.sub_content {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+
+.sec_about_us img {
+    border-radius: 50px;
+}
+
+/* title background image position */
+.title_bck_img {
+    width: 400px;
+    position: absolute;
+    top: 95px;
+    right: 563px;
+}
+
+.page_title {
+    font-family: "EB Garamond", serif;
+}
+
+.font {
+    font-family: "SUSE", sans-serif;
+}

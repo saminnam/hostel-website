@@ -1,0 +1,110 @@
+.room_info_box {
+    padding: 18px;
+    width: 55%;
+    box-shadow: 0 5px 10px #CECECE;
+}
+
+.room_info_box img {
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.room_info_box h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.address {
+    color: #7e7c7c;
+    font-size: 14px;
+    padding-right: 250px;
+}
+
+.icon_map {
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.content_style {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.imp_info_tag {
+    background-color: tomato;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid tomato;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.room_booking_form {
+    position: sticky;
+    top: 150px;
+    right: 70px;
+    border: 1px solid  #CECECE;
+    padding: 20px;
+    width: 40%;
+    height: 750px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px #CECECE;
+}
+
+@media (max-width: 640px) {
+    .room_details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .room_info_box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .room_booking_form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .icon_map {
+        display: none;
+    }
+    .address {
+        padding-right: 0;
+    }
+    .room_info_box img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 990px) {
+    .room_details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .room_info_box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .room_booking_form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .icon_map {
+        display: none;
+    }
+    .address {
+        padding-right: 0;
+    }
+    .room_info_box img {
+        height: 300px;
+    }
+}
